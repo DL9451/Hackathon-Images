@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.interh {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .interp {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    }
+    .nm{
+        background: linear-gradient(to right,#6C63FF,#393886);
+        -webkit-background-clip: text;
+        color:transparent;
+    }
+    .urbanisth {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    }
+    .urbanistp {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:450;
+    font-style: normal;
+    }
+
+        body {
+            background-color: #E5E5EE;
+        }
+
+
+        /* Frosted Glass Effect for Navbar */
+        .navbar-blur {
+            background: rgba(255, 255, 255, 0.1);
+            /* Slight transparency */
+            backdrop-filter: blur(15px);
+            /* The actual blur effect */
+            -webkit-backdrop-filter: blur(15px);
+            /* For Safari */
+            position: fixed;
+            /* Keeps navbar at top */
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            /* Makes sure it’s above content */
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            color: #1E2A38;
+        }
+
+        ::selection {
+            color: white;
+            background: #6C63FF;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1E2A38;
+        }
+
+        a:link {
+            color: black;
+            /* Unvisited link color */
+        }
+
+        a:visited {
+            color: black;
+            /* Visited link color */
+        }
+
+        .btn-outline-primary {
+            border-radius: 20px;
+            background-color: #6C63FF;
+            color: white;
+        }
+
+        .btn-outline-primary:hover {
+            border-radius: 20px;
+            background-color: #E5E5EE;
+            color: #6C63FF;
+        }
+
+        input {
+            display: none;
+        }
+
+        label[for="btn"] {
+            cursor: pointer;
+            /* Change cursor to pointer when hovering over the label */
+        }
+
+        p {
+            color: #737373;
+        }
+
+        .col-lg-3 {
+            padding: 4%;
+        }
+
+        .col-lg-3 li,.col-lg-3 li a {
+            padding: 2%;
+            color: #4A5568;
+        }
+
+        .lead,p,.col-sm-6 u{
+            color: #4A5568;
+        }
+
+        b {
+            font-size: 22px;
+        }
+
+        h1,h2,b{
+            color: #1E2A38;
+        }
+        
